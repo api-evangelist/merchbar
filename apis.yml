@@ -1,7 +1,28 @@
 aid: merchbar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/merchbar.png
 name: Merchbar
-description: Merchbar is a company surfaced as a portfolio company of bullpen-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Merchbar, Inc. is the official merchandise retailer for top musicians, selling
+  vinyl records, CDs, t-shirts, hoodies, posters, and other band merchandise
+  across thousands of artist storefronts at merchbar.com. It runs a consumer
+  shopping experience alongside a "Merchbar for Artists" program and official
+  merchandise integrations with YouTube and Spotify. Merchbar is a portfolio
+  company of Bullpen Capital. As of this enrichment pass Merchbar publishes no
+  public API, developer program, SDKs, or technical documentation — no
+  developer/api/docs subdomain resolves and there is no /.well-known/security.txt
+  — so this profile captures only its public web presence and probed
+  domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/merchbar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Music
+- Merchandise
+- Ecommerce
+- Retail
+- Vinyl
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,21 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/merchbar-domain-security.yml
 - type: Website
   url: https://www.merchbar.com
+- type: SignUp
+  url: https://www.merchbar.com/account
+- type: Support
+  name: Help Center
+  url: https://help.merchbar.com/hc/en-us
+- type: TermsOfService
+  url: https://help.merchbar.com/hc/en-us/articles/360044115794-Terms-of-Service
+- type: PrivacyPolicy
+  url: https://help.merchbar.com/hc/en-us/articles/360050247133-Privacy-Policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
