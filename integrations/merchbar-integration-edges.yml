@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/merchbar/integrations
+- https://n8n.io/integrations/merchbar/
+- https://composio.dev/toolkits/merchbar
+- https://monid.ai/tools/merchbar
+checked:
+- https://composio.dev/toolkits/merchbar
+- https://monid.ai/tools/merchbar
+- https://n8n.io/integrations/merchbar/
+- https://zapier.com/apps/merchbar/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
