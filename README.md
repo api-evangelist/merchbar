@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Merchbar is a company surfaced as a portfolio company of bullpen-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Merchbar, Inc. is the official merchandise retailer for top musicians, selling vinyl records, CDs, t-shirts, hoodies, posters, and other band merchandise across thousands of artist storefronts at merchbar.com. It runs a consumer shopping experience alongside a "Merchbar for Artists" program and official merchandise integrations with YouTube and Spotify. Merchbar is a portfolio company of Bullpen Capital. As of this enrichment pass Merchbar publishes no public API, developer program, SDKs, or technical documentation — no developer/api/docs subdomain resolves and there is no /.well-known/security.txt — so this profile captures only its public web presence and probed domain-security posture.
 
-Backed by: bullpen-capital — https://www.merchbar.com
+**Areas:** Company · Music · Merchandise · E-Commerce · Retail · Vinyl · Consumer
+
+## Merchbar on APIs.io
+
+Everything profiled for Merchbar is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/merchbar/](https://apis.io/providers/merchbar/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Merchbar Domain Security](https://apis.io/security/merchbar/merchbar-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.merchbar.com)
+- [Sign up](https://www.merchbar.com/account)
+- [Support](https://help.merchbar.com/hc/en-us)
+- [Blog](https://www.merchbar.com/blog)
+- [Terms of service](https://help.merchbar.com/hc/en-us/articles/360044115794-Terms-of-Service)
+- [Privacy policy](https://help.merchbar.com/hc/en-us/articles/360050247133-Privacy-Policy)
+
+## API Evangelist rating
+
+**Kin Score 12.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/merchbar/](https://apis.io/providers/merchbar/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Merchbar: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/merchbar/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
